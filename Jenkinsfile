@@ -11,8 +11,7 @@ maven 'Maven' // Ensure this matches the name configured in Jenkins
 stages {
 stage('Checkout') {
 steps {
-git branch: 'master', url: 'https://github.com/ShruthiBGowda/MavenAnsibleWebApp1-
-CICD.git'
+git branch: 'main', url: 'https://github.com/tanush-02/MavenAnsibleWebApp01.git'
 }
 }
 stage('Build') {
